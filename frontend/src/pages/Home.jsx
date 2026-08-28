@@ -29,7 +29,7 @@ const Home = () => {
     setLoading(true);
     try {
       const token = localStorage.getItem('token');
-      const response = await fetch('mern-authentication-llk2.vercel.app/api/products', {
+      const response = await fetch('https://mern-authentication-llk2.vercel.app/products', {
         method: 'GET',
         headers: {
           Authorization: `Bearer ${token}`,

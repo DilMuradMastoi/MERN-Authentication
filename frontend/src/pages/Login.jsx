@@ -27,7 +27,7 @@ const Login = () => {
 
     setLoading(true);
     try {
-      const url = "mern-authentication-llk2.vercel.app/api/auth/login";
+      const url = "https://mern-authentication-llk2.vercel.app/login";
       const response = await fetch(url, {
         method: "POST",
         headers: { 'Content-Type': 'application/json' },
