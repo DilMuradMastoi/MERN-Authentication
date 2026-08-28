@@ -27,7 +27,7 @@ const Login = () => {
 
     setLoading(true);
     try {
-      const url = "http://localhost:5000/api/auth/login";
+      const url = "mern-authentication-livid.vercel.app/auth/login";
       const response = await fetch(url, {
         method: "POST",
         headers: { 'Content-Type': 'application/json' },
