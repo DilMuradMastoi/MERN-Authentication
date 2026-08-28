@@ -31,7 +31,7 @@ const Signup = () => {
 
     setLoading(true);
     try {
-      const url = "mern-authentication-livid.vercel.app/api/auth/signup";
+      const url = "mern-authentication-livid.vercel.app/signup";
       const response = await fetch(url, {
         method: "POST",
         headers: {
