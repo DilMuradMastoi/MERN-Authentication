@@ -99,7 +99,7 @@ app.use((err, req, res, next) => {
 // Server + MongoDB
 // ===============================
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || https://mern-authentication-livid.vercel.app;
 
 const startServer = async () => {
   try {
